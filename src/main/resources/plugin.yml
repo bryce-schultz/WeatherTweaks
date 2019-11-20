@@ -1,0 +1,13 @@
+name: WeatherTweaks
+main: me.bryceschultz.weathertweaks.WeatherTweaks
+version: 1.0
+author: Bryce Schultz
+api-version: 1.13
+prefix: WeatherTweaks
+
+commands:
+  setweathermodifier:
+    usage: /setweathermodifier <value>
+    description: Allows the rain frequency to be reduced
+    aliases: [setwm, swm]
+    permission: weathertweaks.setweathermodifier
